@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Navigation from "../layout/Navigation";
-import MediumAvatar from "../../img/medium-avatar-image.png";
+import MediumAvatar from "../../img/medium-avatar.png";
 
 export default class About extends Component {
   render() {

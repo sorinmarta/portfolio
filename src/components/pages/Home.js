@@ -13,7 +13,7 @@ export default class Home extends Component {
             <a href="/about" className="home-left-btn">
               About me
             </a>
-            <a href="#" className="home-right-btn">
+            <a href="/portfolio" className="home-right-btn">
               Portfolio
             </a>
           </div>

@@ -160,7 +160,12 @@ body {
 
 .about-wrap {
   background-color: #fff;
-  height: 100%;
+  min-height: 100vh;
+}
+
+.portfolio-wrap{
+  background-color: #fff;
+  min-height: 100vh;
 }
 
 .page-title {
@@ -182,13 +187,11 @@ body {
   align-items: center;
 }
 
-.about-inner-wrap
-
 .about-section-two {
   display: none;
   height: 100vh;
   flex: 50%;
-  background-image: url("img/about-right-bg.png");
+  background-image: url("img/medium-avatar.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -335,11 +338,11 @@ body {
 
   .about-section-2{
     display:initial;
-    background-image: url('img/about-right-bg.png');
+    background-image: url('img/medium-avatar.png');
     background-size: cover;
     background-repeat: no-repeat;
     height:100vh;
-    width: 70vw;
+    width:70vw;
   }
 }
 
